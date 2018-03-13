@@ -9,6 +9,7 @@ public class Place
     private String name;
     private String address;
     private String description;
+    private int imageResourceID;
 
     public Place(String name, String address, String description) {
         this.name = name;
@@ -26,5 +27,9 @@ public class Place
 
     public String getDescription() {
         return description;
+    }
+
+    public int getImageResourceID() {
+        return imageResourceID;
     }
 }
