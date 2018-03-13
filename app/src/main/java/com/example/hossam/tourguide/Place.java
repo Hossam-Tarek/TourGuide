@@ -7,22 +7,17 @@ package com.example.hossam.tourguide;
 public class Place
 {
     private String name;
-    private String address;
     private String description;
     private int imageResourceID;
 
-    public Place(String name, String address, String description) {
+    public Place(String name, String description, int imageResourceID) {
         this.name = name;
-        this.address = address;
         this.description = description;
+        this.imageResourceID = imageResourceID;
     }
 
     public String getName() {
         return name;
-    }
-
-    public String getAddress() {
-        return address;
     }
 
     public String getDescription() {

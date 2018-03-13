@@ -11,7 +11,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.List;
-import java.util.zip.Inflater;
 
 /**
  * Created by hossam on 3/13/18.
