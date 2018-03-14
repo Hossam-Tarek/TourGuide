@@ -20,7 +20,7 @@ public class CategoryAdapter extends FragmentPagerAdapter
 
     @Override
     public int getCount() {
-        return 3;
+        return 4;
     }
 
     @Override
@@ -32,6 +32,8 @@ public class CategoryAdapter extends FragmentPagerAdapter
                 return new IslamicFragment();
             case 2:
                 return new ChristianFragment();
+            case 3:
+                return new ModernFragment();
             default:
                 return null;
         }
@@ -46,6 +48,8 @@ public class CategoryAdapter extends FragmentPagerAdapter
                 return context.getString(R.string.category_islamic_places);
             case 2:
                 return context.getString(R.string.category_christian_places);
+            case 3:
+                return context.getString(R.string.category_modern);
             default:
                 return null;
         }

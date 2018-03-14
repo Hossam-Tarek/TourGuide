@@ -7,6 +7,8 @@
 
     <string name="category_christian_places">Christian</string>
 
+    <string name="category_modern">Modern</string>
+
     <string name="pyramids">Pyramids</string>
 
     <string name="abu_simble_temple">Abu Simple Temple</string>
@@ -38,6 +40,14 @@
     <string name="wadi_el_natrun">Wadi El-Natrun Monastery</string>
 
     <string name="white_monastery">White Monastery</string>
+
+    <string name="cairo_tower">Cairo Tower</string>
+
+    <string name="egyptian_museum">Egyptian Museum</string>
+
+    <string name="khan_el_khalili">Khan El-Khalili</string>
+
+    <string name="abdeen_palace">Abdeen Palace</string>
 
     <!-- Description of the great Pyramids -->
     <string name="pyramids_description">
@@ -158,5 +168,36 @@
         and a half miles (4km) south-east of the Red Monastery. The name of the monastery is derived
         from the colour of the white limestone of its outside walls. The White Monastery is architecturally
         similar to the Red Monastery.
+    </string>
+
+    <!-- Description of Cairo tower -->
+    <string name="cairo_tower_description">
+        The Cairo Tower is a free-standing concrete tower located in Cairo, Egypt. At 187 m (614 ft),
+        it has been the tallest structure in Egypt and North Africa for about 50 years. It was the
+        tallest structure in Africa for 10 years, until 1971 when it was surpassed by Hillbrow Tower
+        in South Africa.
+    </string>
+
+    <!-- Description of Egyptian Museum -->
+    <string name="egyptian_museum_description">
+        Egyptian Museum is home to an extensive collection of ancient Egyptian antiquities. It has
+        120,000 items, with a representative amount on display, the remainder in storerooms. The
+        edifice is one of the largest museums in the region. As of July 2017, the museum is open
+        to the public.
+    </string>
+
+    <!-- Description of Khan El-Khalili -->
+    <string name="khan_el_khalili_description">
+        The Khan el-Khalili today is mainly occupied by Egyptian merchants and shopholders, but is
+        significantly geared towards tourists. Shops typically sell souvenirs, antiques and jewellery,
+        but many traditional workshops continue to operate in the surrounding area and the adjoining
+        goldsmiths' souq, for example, is still important for locals.
+    </string>
+
+    <!-- Description of Abdeen Palace -->
+    <string name="abdeen_palace_description">
+        In 1863 Khedive Ismail Pasha began constructing Abdeen Palace as the seat of his government
+        and a symbol of Egypt's strength. It was a royal residence until the end of the monarchy in
+        1952 and is still used by the president for official events.
     </string>
 </resources>
