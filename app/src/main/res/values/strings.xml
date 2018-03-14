@@ -1,16 +1,16 @@
 <resources>
     <string name="app_name">Tour Guide</string>
-    
+
     <string name="category_historical_places">Historic</string>
-    
+
     <string name="category_islamic_places">Islamic</string>
-    
+
     <string name="category_christian_places">Christian</string>
-    
+
     <string name="pyramids">Pyramids</string>
-    
+
     <string name="abu_simble_temple">Abu Simple Temple</string>
-    
+
     <string name="citadel_of_qaitbay">Citadel of Quaitbay</string>
 
     <string name="luxor_temple">Luxor Temple</string>
@@ -28,7 +28,7 @@
     <string name="salah_citadel">Salah El Din Citadel</string>
 
     <string name="amr_mosque">Mosque of Amr ibn Al-Aas</string>
-    
+
     <string name="tulun_mosque">Mosque of Ahmed ibn Tulun</string>
 
     <string name="hanging_church">The Hanging Church</string>
@@ -61,7 +61,7 @@
         by Sultan Al-Ashraf Sayf al-Din Qa'it Bay. The Citadel is situated on the eastern side of the
         northern tip of Pharos Island at the mouth of the Eastern Harbour.
     </string>
-    
+
     <!-- Description of Luxor temple -->
     <string name="luxor_temple_description">
         Luxor Temple is a large Ancient Egyptian temple complex located on the east bank of the

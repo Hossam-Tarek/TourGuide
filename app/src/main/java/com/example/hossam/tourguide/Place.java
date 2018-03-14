@@ -6,22 +6,22 @@ package com.example.hossam.tourguide;
 
 public class Place
 {
-    private String name;
-    private String description;
+    private int nameResourceID;
+    private int descriptionResourceID;
     private int imageResourceID;
 
-    public Place(String name, String description, int imageResourceID) {
-        this.name = name;
-        this.description = description;
+    public Place(int nameResourceID, int descriptionResourceID, int imageResourceID) {
+        this.nameResourceID = nameResourceID;
+        this.descriptionResourceID = descriptionResourceID;
         this.imageResourceID = imageResourceID;
     }
 
-    public String getName() {
-        return name;
+    public int getNameResourceID() {
+        return nameResourceID;
     }
 
-    public String getDescription() {
-        return description;
+    public int getDescriptionResourceID() {
+        return descriptionResourceID;
     }
 
     public int getImageResourceID() {
