@@ -38,10 +38,10 @@ public class IslamicFragment extends Fragment {
                 R.drawable.ahmed_ibn_tulun));
 
         ListView listView = rootView.findViewById(R.id.list);
-
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
-
         listView.setAdapter(adapter);
+
+        listView.setOnItemClickListener(new ClickListener(getActivity()));
 
         return rootView;
     }

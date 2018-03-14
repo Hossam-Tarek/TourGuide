@@ -37,10 +37,10 @@ public class ChristianFragment extends Fragment {
                 R.drawable.white_monastery));
 
         ListView listView = rootView.findViewById(R.id.list);
-
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
-
         listView.setAdapter(adapter);
+
+        listView.setOnItemClickListener(new ClickListener(getActivity()));
 
         return rootView;
     }
