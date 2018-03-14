@@ -45,7 +45,7 @@ public class CategoryAdapter extends FragmentPagerAdapter
             case 1:
                 return context.getString(R.string.category_islamic_places);
             case 2:
-                return context.getString(R.string.category_historic_places);
+                return context.getString(R.string.category_christian_places);
             default:
                 return null;
         }
