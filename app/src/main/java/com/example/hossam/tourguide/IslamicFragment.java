@@ -29,13 +29,13 @@ public class IslamicFragment extends Fragment {
 
         ArrayList<Place> places = new ArrayList<>();
         places.add(new Place(R.string.al_azhar, R.string.al_azhar_description,
-                R.drawable.al_azhar));
+                R.drawable.al_azhar, new Location(30.045702, 31.262669)));
         places.add(new Place(R.string.salah_citadel, R.string.salah_citadel_description,
-                R.drawable.salah_el_din_citadel));
+                R.drawable.salah_el_din_citadel, new Location(30.029860, 31.261041)));
         places.add(new Place(R.string.amr_mosque, R.string.amr_mosque_description,
-                R.drawable.amr_ibn_al_as));
+                R.drawable.amr_ibn_al_as, new Location(30.010094, 31.233040)));
         places.add(new Place(R.string.tulun_mosque, R.string.tulun_mosque_description,
-                R.drawable.ahmed_ibn_tulun));
+                R.drawable.ahmed_ibn_tulun, new Location(30.028645, 31.249362)));
 
         ListView listView = rootView.findViewById(R.id.list);
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);

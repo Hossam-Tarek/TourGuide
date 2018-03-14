@@ -19,7 +19,7 @@
 
     <string name="philae_temple">Philae Temple</string>
 
-    <string name="vally_kings">Vally of the Kings</string>
+    <string name="valley_kings">Vally of the Kings</string>
 
     <string name="karnak_temple">Karnak Temple</string>
 
@@ -88,7 +88,7 @@
     </string>
 
     <!-- Description of The Vally of the Kings -->
-    <string name="vally_kings_description">
+    <string name="valley_kings_description">
         The Valley of the Kings is a valley in Egypt where, for a period of nearly 500 years from the
         16th to 11th century BC, rock cut tombs were excavated for the Pharaohs and powerful nobles
         of the New Kingdom (the Eighteenth to the Twentieth Dynasties of Ancient Egypt).

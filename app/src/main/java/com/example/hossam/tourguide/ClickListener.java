@@ -25,6 +25,8 @@ public class ClickListener implements ListView.OnItemClickListener
         intent.putExtra("name_resource_id", place.getNameResourceID());
         intent.putExtra("description_resource_id", place.getDescriptionResourceID());
         intent.putExtra("image_resource_id", place.getImageResourceID());
+        intent.putExtra("latitude", place.getLocation().getLatitude());
+        intent.putExtra("longitude",place.getLocation().getLongitude());
         context.startActivity(intent);
     }
 }
