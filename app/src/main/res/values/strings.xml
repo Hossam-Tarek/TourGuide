@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Tour Guide</string>
 
-    <string name="category_historical_places">Historic</string>
+    <string name="category_historic_places">Historic</string>
 
     <string name="category_islamic_places">Islamic</string>
 
