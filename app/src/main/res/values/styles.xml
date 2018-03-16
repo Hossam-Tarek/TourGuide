@@ -8,4 +8,15 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="actionBarStyle">@style/Widget.AppCompat.ActionBar</item>
     </style>
+
+    <!-- Place name style -->
+    <style name="PlaceName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/place_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:padding">@dimen/small_padding</item>
+    </style>
 </resources>
