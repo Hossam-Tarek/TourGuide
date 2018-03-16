@@ -5,4 +5,16 @@
 
     <!-- Height of an image in details screen -->
     <dimen name="image_height">400dp</dimen>
+
+    <!-- Text size of place name in card -->
+    <dimen name="place_text_size">34sp</dimen>
+
+    <!-- Corner radius of Card item -->
+    <dimen name="card_radius">4dp</dimen>
+
+    <!-- Small padding or margin -->
+    <dimen name="small_padding">8dp</dimen>
+
+    <!-- padding or margin -->
+    <dimen name="padding">16dp</dimen>
 </resources>
