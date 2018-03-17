@@ -33,7 +33,7 @@ public class ChristianFragment extends Fragment {
                 R.drawable.saint_catherine_monastery, new Location(28.555967, 33.976037)));
         places.add(new Place(R.string.wadi_el_natrun, R.string.wadi_el_natrun_description,
                 R.drawable.wadi_el_natrun, new Location(30.371526, 30.269564)));
-        places.add(new Place(R.string.white_monastery, R.string.wadi_el_natrun_description,
+        places.add(new Place(R.string.white_monastery, R.string.white_monastery_description,
                 R.drawable.white_monastery, new Location(26.534761, 31.645694)));
 
         ListView listView = rootView.findViewById(R.id.list);
