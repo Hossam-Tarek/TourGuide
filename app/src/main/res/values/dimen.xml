@@ -3,9 +3,6 @@
     <!-- The height of one list item -->
     <dimen name="item_height">250dp</dimen>
 
-    <!-- Height of an image in details screen -->
-    <dimen name="image_height">400dp</dimen>
-
     <!-- Text size of place name in card -->
     <dimen name="place_text_size">34sp</dimen>
 
